@@ -13,10 +13,10 @@
 </style>
 
 <script>
-var page_audio = new Audio("caramelldansen.mp3");
-page_audio.load();
 
 window.onload = function() {
+    var page_audio = new Audio("caramelldansen.mp3");
+    page_audio.load();
     document.getElementById("my_audio").src = page_audio;
     document.getElementById("my_audio").play();
 }
