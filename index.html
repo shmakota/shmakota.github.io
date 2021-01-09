@@ -23,6 +23,27 @@ body {
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 </style>
+
+<script>
+var playButton = document.getElementById("play_button");
+// Event listener for the play/pause button
+playButton.addEventListener("click", function() {
+  if (video.paused == true) {
+    // Play the video
+    video.play();
+
+    // Update the button text to 'Pause'
+    playButton.innerHTML = "Pause";
+  } else {
+    // Pause the video
+    video.pause();
+
+    // Update the button text to 'Play'
+    playButton.innerHTML = "Play";
+  }
+});
+</script>
+
 <html>
 	<head>
 		<link rel="icon" href="kotapw.ico" sizes="16x16">
@@ -31,6 +52,7 @@ body {
   <body>
 	  <p class="rainbow-text" style="text-align: center; font-size: 48px; font-family: 'Comic Sans MS';">kota.pw!!!</p>
 	  <div class="qrCode"><p style="text-align: center;"><img style="width: 256px; height: 256px;" src="qr-code.png" alt="kota.pw!!!" /></p></div>
-	  <p style="text-align: center;"><audio src="caramelldansen.mp3" autoplay></audio></p>
+	  <p style="text-align: center;"><audio id = "audioPlayer" src="caramelldansen.mp3" autoplay></audio></p>
+	  <button type="button" id="play_button">Play</button>
   </body>
 </html>
