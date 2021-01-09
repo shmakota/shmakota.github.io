@@ -16,6 +16,7 @@
 
 body {
   background-color: #181818;
+  font-family: 'Comic Sans MS';
 }
 	
 @keyframes rainbow { 
@@ -25,24 +26,6 @@ body {
 </style>
 
 <script>
-var playButton = document.getElementById("play_button");
-var video = document.getElementById("audio_player");
-// Event listener for the play/pause button
-playButton.addEventListener("click", function() {
-  if (video.paused == true) {
-    // Play the video
-    video.play();
-
-    // Update the button text to 'Pause'
-    playButton.innerHTML = "Pause";
-  } else {
-    // Pause the video
-    video.pause();
-
-    // Update the button text to 'Play'
-    playButton.innerHTML = "Play";
-  }
-});
 </script>
 
 <html>
@@ -51,9 +34,8 @@ playButton.addEventListener("click", function() {
 		<title>kota.pw!!!</title>
 	</head>
   <body>
-	  <p class="rainbow-text" style="text-align: center; font-size: 48px; font-family: 'Comic Sans MS';">kota.pw!!!</p>
+	  <p class="rainbow-text" style="text-align: center; font-size: 48px;">kota.pw!!!</p>
 	  <div class="qrCode"><p style="text-align: center;"><img style="width: 256px; height: 256px;" src="qr-code.png" alt="kota.pw!!!" /></p></div>
-	  <p style="text-align: center;"><audio id = "audio_player" src="caramelldansen.mp3" autoplay></audio></p>
-	  <p style="text-align: center;"><button type="button" id="play_button">Play</button></p>
+	  <p style="text-align: center;"><audio id = "audio_player" src="caramelldansen.mp3" autoplay>aww no beautiful music :(</audio></p>
   </body>
 </html>
