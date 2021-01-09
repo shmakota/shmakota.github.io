@@ -13,9 +13,11 @@
 </style>
 
 <script>
+var page_audio = new Audio("caramelldansen.mp3");
+page_audio.load();
+
 window.onload = function() {
-    document.getElementById("my_audio").src = "caramelldansen.mp3";
-    document.getElementById("my_audio").load();
+    document.getElementById("my_audio").src = page_audio;
     document.getElementById("my_audio").play();
 }
 </script>
