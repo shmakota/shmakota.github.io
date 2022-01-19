@@ -23,10 +23,38 @@ body {
     0%{background-position:0% 50%}
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
-</style>
+}
 
-<script>
-</script>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #5050d6;
+}
+</style>
 
 <html>
 	<head>
@@ -35,11 +63,21 @@ body {
 		<title>kota.pw!!!</title>
 	</head>
   <body>
-	  <p class="rainbow-text" style="text-align: center; font-size: 48px;">kota.pw!!!</p>
+		
+	<ul>
+	  <li><a href="/index.html">Home</a></li>
+	  <li><a href="/projects.html">Projects</a></li>
+	  <li><a class="active" a href="/links.html">External Links</a></li>
+	</ul>
+	
+	<br>
 	  <p style="text-align: center;"><a href="https://shmakota.itch.io/">itch.io</p>
 	  <p style="text-align: center;"><a href="https://twitter.com/shmakota">twitter</p>
 	  <p style="text-align: center;"><a href="https://github.com/shmakota">github</p>
 	  <p style="text-align: center;"><a href="https://www.youtube.com/channel/UCWQ6ohnQifBqCqCe7iYpwvA/videos">youtube</a></p>
+	  
+  <br>
+	  
 	  <div class="qrCode"><p style="text-align: center;"><img style="width: 256px; height: 256px;" src="qr-code.png" alt="kota.pw!!!" /></p></div>
 	  
   </body>
