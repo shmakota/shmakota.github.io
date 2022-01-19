@@ -23,10 +23,37 @@ body {
     0%{background-position:0% 50%}
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
-</style>
+}
 
-<script>
-</script>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #5050d6;
+}
+</style>
 
 <html>
 	<head>
@@ -35,11 +62,14 @@ body {
 		<title>kota.pw!!!</title>
 	</head>
   <body>
+		<ul>
+		  <li><a class="active" a href="/index.html">Home</a></li>
+		  <li><a href="/projects.html">Projects</a></li>
+		  <li><a href="/links.html">External Links</a></li>
+		</ul>
+  
 	  <p class="rainbow-text" style="text-align: center; font-size: 48px;">kota.pw!!!</p>
-	  <p style="text-align: center;"><a href="/links.html">external links</a></p>
-	  <p style="text-align: center;"><a href="/projects.html">projects</a></p>
-	  <div class="qrCode"><p style="text-align: center;"><img style="width: 256px; height: 256px;" src="qr-code.png" alt="kota.pw!!!" /></p></div>
-	  <p style="text-align: center;"><audio id = "audio_player" src="caramelldansen.mp3" autoplay loop>caramelldansen</audio></p>
+	  
 	  
   </body>
 </html>
