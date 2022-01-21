@@ -1,0 +1,84 @@
+<style>
+.rainbow-text {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  -webkit-background-clip: text;
+  background-size: 800% 800%;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s ease infinite;
+}
+
+.qrCode {
+  background-color: white;
+  text-align: center;
+  width: 256px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #181818;
+  font-family: 'Comic Sans MS';
+}
+	
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #5050d6;
+}
+</style>
+
+<html>
+	<head>
+		<script data-ad-client="ca-pub-1995106219488897" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<link rel="icon" href="kotapw.ico" sizes="16x16">
+		<title>kota.pw!!!</title>
+	</head>
+  <body>
+		
+	<ul>
+	  <li><a href="/index.html">Home</a></li>
+	  <li><a href="/projects/">Projects</a></li>
+	  <li><a class="active" a href="/links/">External Links</a></li>
+	</ul>
+	
+	<br>
+	  <p style="text-align: center;"><a href="https://shmakota.itch.io/">itch.io</p>
+	  <p style="text-align: center;"><a href="https://twitter.com/shmakota">twitter</p>
+	  <p style="text-align: center;"><a href="https://github.com/shmakota">github</p>
+	  <p style="text-align: center;"><a href="https://www.youtube.com/channel/UCWQ6ohnQifBqCqCe7iYpwvA/videos">youtube</a></p>
+	  
+  <br>
+	  
+	  <div class="qrCode"><p style="text-align: center;"><img style="width: 256px; height: 256px;" src="qr-code.png" alt="kota.pw!!!" /></p></div>
+	  
+  </body>
+</html>
