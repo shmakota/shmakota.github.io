@@ -57,7 +57,7 @@ li a:hover {
   background-color: #5050d6;
 }
 
-.button {
+.play-button {
   background-color: #5050d6;
   border: none;
   color: white;
@@ -66,4 +66,56 @@ li a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+
+.card {
+	width: 300px;
+	height: 280px;
+	padding: 0;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #333;
+	color: white;
+}
+
+.card * {
+	transition: 0.3s ease all;
+}
+
+.card img {
+	margin: 0;
+	width: 300px;
+	height: 224px;
+	object-fit: cover;
+	display: block;
+}
+
+.card h3 {
+	margin: 0;
+	padding: 12px 12px 48px;
+	line-height: 32px;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.card .focus-content {
+	display: block;
+	padding: 8px 12px;
+}
+
+.card p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.card:hover img, .card:focus-within img {
+	margin-top: -120px;
+}
+
+.card:hover h3, .card:focus-within h3 {
+	padding: 8px 12px 0;
 }
