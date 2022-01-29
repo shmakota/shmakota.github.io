@@ -4,7 +4,7 @@
   background-size: 800% 800%;
   -webkit-text-fill-color: #181818;
   -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-width: 6px;
   animation: rainbow 8s ease infinite;
 }
 
@@ -80,15 +80,15 @@ li a:hover {
 }
 
 .play-button:hover{
-  background-color: #111;
+  background-color: #5050d6;
   border: none;
   color: white;
   padding: 5px 20px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
   font-size: 16px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 4px 8px 0 #5050d6;
 }
 
 
