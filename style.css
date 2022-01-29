@@ -4,6 +4,7 @@
   background-size: 800% 800%;
   -webkit-text-fill-color: #181818;
   -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 4px;
   animation: rainbow 8s ease infinite;
 }
 
