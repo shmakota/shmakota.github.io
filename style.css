@@ -2,7 +2,8 @@
   background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
   -webkit-background-clip: text;
   background-size: 800% 800%;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #181818;
+  -webkit-text-stroke-color: transparent;
   animation: rainbow 8s ease infinite;
 }
 
@@ -59,6 +60,11 @@ li a:hover {
   background-color: #5050d6;
 	box-shadow: 0 4px 8px 0 #5050d6;
 }
+
+.active:hover {
+  background-color: #5050d6;
+}
+
 
 .play-button {
   background-color: #5050d6;
