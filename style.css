@@ -5,7 +5,6 @@ h1 { font-family: "Segoe UI"; font-size: 32px; font-style: normal; font-variant:
   background-size: 800% 800%;
   -webkit-text-fill-color: transparent;
   animation: rainbow 8s ease infinite;
-  overflow: visible;
 }
 
 .white-text {
@@ -83,6 +82,10 @@ li a:hover {
 	color: white;
 }
 
+.card:hover {
+	box-shadow: 0 0 40px 20px #5050d6;
+}
+
 .card * {
 	transition: 0.3s ease all;
 }
@@ -115,7 +118,6 @@ li a:hover {
 
 .card:hover img, .card:focus-within img {
 	margin-top: -120px;
-	box-shadow: 0 0 40px 20px #5050d6;
 }
 
 .card:hover h3, .card:focus-within h3 {
