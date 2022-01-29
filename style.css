@@ -1,4 +1,4 @@
-h1 { font-family: "Segoe UI"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 32px; } h3 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 32px; } p { font-family: "Segoe UI"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 32px; } blockquote { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; } pre { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; }
+h1 { font-family: "Segoe UI"; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 32px; } h3 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 32px; } p { font-family: "Segoe UI"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 32px; } blockquote { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; } pre { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; } a { font-family: "Segoe UI"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 32px; }
 .rainbow-text {
   background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
   -webkit-background-clip: text;
@@ -114,6 +114,7 @@ li a:hover {
 
 .card:hover img, .card:focus-within img {
 	margin-top: -120px;
+	box-shadow: 0 0 40px 20px #5050d6;
 }
 
 .card:hover h3, .card:focus-within h3 {
