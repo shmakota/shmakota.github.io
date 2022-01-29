@@ -10,6 +10,16 @@
   color: white;
 }
 
+.linkbox {
+  color: #5050d6;
+}
+
+.linkbox:hover {
+  color: #181818;
+  background-color: #5050d6;
+}
+
+
 .qrCode {
   background-color: white;
   text-align: center;
