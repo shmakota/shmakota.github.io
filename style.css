@@ -2,9 +2,7 @@
   background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
   -webkit-background-clip: text;
   background-size: 800% 800%;
-  -webkit-text-fill-color: #181818;
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: 6px;
+  -webkit-text-fill-color: transparent;
   animation: rainbow 8s ease infinite;
 }
 
