@@ -6,6 +6,10 @@
   animation: rainbow 8s ease infinite;
 }
 
+.flex-container {
+  display: flex;
+}
+
 .white-text {
   color: white;
 }
