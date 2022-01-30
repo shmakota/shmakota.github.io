@@ -74,6 +74,14 @@ li a:hover {
   background-color: #5050d6;
 }
 
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .play-button {
   background-color: #5050d6;
