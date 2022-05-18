@@ -4,6 +4,7 @@
   background-size: 800% 800%;
   -webkit-text-fill-color: transparent;
   animation: rainbow 8s ease infinite;
+  font-size: 1.8rem;
 }
 
 .white-text {
@@ -194,10 +195,6 @@ li a:hover {
   order: 2;
   display: flex;
 }
-.logo {
-  order: 1;
-  font-size: 1.8rem;
-}
 
 .menu-items li,
 button {
@@ -323,7 +320,7 @@ button:hover {
     margin-left: 1rem;
   }
 
-  .logo {
+  .rainbow {
     position: absolute;
     top: 12px;
     right: 15px;
