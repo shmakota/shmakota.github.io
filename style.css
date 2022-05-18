@@ -226,16 +226,16 @@ button {
 }
 
 button:hover a {
-  color: #0088a9;
+  color: #5050d6;
 }
 
 button:hover {
   background: #fff;
-  color: #0088a9;
+  color: #5050d6;
 }
 
 .navbar a:hover {
-  color: #0088a9;
+  color: #5050d6;
 }
 
 @media (max-width: 768px) {
