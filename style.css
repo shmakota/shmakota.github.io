@@ -160,8 +160,7 @@ li a:hover {
 	padding: 8px 12px 0;
 }
 
-// stolen from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
-
+/* stolen from https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ */
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -185,7 +184,7 @@ li a:hover {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: 5050d6;
   display: block;
   position: absolute;
   right: 0;

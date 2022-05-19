@@ -11,13 +11,26 @@
 	</head>
 	<body>
 	  <h1 class="rainbow-text" style="text-align: center; font-size: 32px;">kota.pw!!!</h1>
-		<ul>
-		  <li><a href="https://kota.pw">Home</a></li>
-		  <li><a href="/main-projects/">Main Projects</a></li>
-		  <li><a href="/side-projects/">Side Projects</a></li>
-		  <li><a class="active" href="/links/">Links</a></li>
-		  <li><a href="/contact/">Contact</a></li>
-		</ul>
+	
+	
+		  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+		  <a href="/index.html" class="active">Links</a>
+		  <!-- Navigation links (hidden by default) -->
+		  <div id="myLinks">
+			<a href="/main-projects">Home</a>
+			<a href="/side-projects">Main Projects</a>
+			<a href="/links">Side Projects</a>
+			<a href="/contact">Contact</a>
+		  </div>
+		  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
 
 		<br>
 			<p style="text-align: center; font-size: 24px;"><a class="linkbox" href="https://shmakota.itch.io/">itch.io</a></p>
