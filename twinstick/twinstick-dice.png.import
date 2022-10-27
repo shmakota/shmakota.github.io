@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/twinstick-dice.png-a8a5743e2d985d0fb28f6fd30bd674bf.stex"
+path="res://.import/twinstick-dice.png-7e19e9a6cb501b328dcb8e5387bf7088.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://builds/html/twinstick-dice.png"
-dest_files=[ "res://.import/twinstick-dice.png-a8a5743e2d985d0fb28f6fd30bd674bf.stex" ]
+source_file="res://builds/twinstick/twinstick-dice.png"
+dest_files=[ "res://.import/twinstick-dice.png-7e19e9a6cb501b328dcb8e5387bf7088.stex" ]
 
 [params]
 

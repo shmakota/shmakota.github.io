@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/twinstick-dice.apple-touch-icon.png-3516634f6f9c26e5f028d32f8e60c908.stex"
+path="res://.import/twinstick-dice.apple-touch-icon.png-d5716f18c612180552ab1d63bcab35a5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://builds/html/twinstick-dice.apple-touch-icon.png"
-dest_files=[ "res://.import/twinstick-dice.apple-touch-icon.png-3516634f6f9c26e5f028d32f8e60c908.stex" ]
+source_file="res://builds/twinstick/twinstick-dice.apple-touch-icon.png"
+dest_files=[ "res://.import/twinstick-dice.apple-touch-icon.png-d5716f18c612180552ab1d63bcab35a5.stex" ]
 
 [params]
 
